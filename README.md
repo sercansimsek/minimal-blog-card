@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](//assets/thumbnail.jpg)
+![screenshot](./assets/thumbnail.jpg)
 
 ### What I learned
 
