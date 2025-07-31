@@ -1,56 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap"
+			rel="stylesheet"
+		/>
 
-    <title>devChallenges.io | Minimal Blog Card</title>
+		<link rel="stylesheet" href="styles.css" />
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+		<title>devChallenges.io | Minimal Blog Card</title>
+	</head>
+	<body>
+		<div class="card">
+			<div class="card-image">
+				<img src="./assets/Cactus.jpg" alt="cactus" />
+			</div>
+			<div class="card-category">Design</div>
+			<div class="card-description">
+				<h3>Embracing Minimalism</h3>
 
-      body {
-        height: 100vh;
-      }
+				<p>
+					From minimalist sculptures to minimalist paintings, this blog will
+					inspire you to appreciate the beauty that lies in simplicity.
+				</p>
+			</div>
+			<hr />
+			<div class="card-author">Annie Spratt</div>
+		</div>
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Design
-
-  Embracing Minimalism
-
-  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
-
-  Annie Spratt -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
-  </body>
+		<footer class="author-info">
+			Coded by <a href="#">Sercan Şimşek</a> | Challenge by
+			<a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+				>devChallenges.io</a
+			>.
+		</footer>
+	</body>
 </html>
